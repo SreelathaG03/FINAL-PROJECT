@@ -13,8 +13,6 @@ $password=$_POST['password'];
 	
 $sql3="INSERT INTO tbl_registration(user_id,firstname,secondname,dob,gender,email,mobile,username,password)
 VALUES('','$fname','$sname','$dob','$gender','email','$mobile_no','$username','$password')";
-//$sql3="INSERT INTO user(user_id,privilage_id,firstname,secondname,DoB,age,country,state,district,locality,pincode,mobile_no,username,password)
-//VALUES('','$1','$sinona','jose','$01/05/1994','23','$india','keral','kannur','paisakkari','670633','9400838632','sinona','sinonajose')";
 				
 
 				if(!mysqli_query($con,$sql3))
